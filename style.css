@@ -1,0 +1,51 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3; /* your background */
+  padding: 20px;
+  max-width: 800px;       /* limit width for readability */
+  margin: 0 auto;         /* center the content */
+  color: #333;            /* nicer default text color */
+}
+
+h1 {
+  color: #2c3e50;
+  font-size: 3rem;        /* bigger heading */
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+a {
+  color: #007acc;
+  text-decoration: none;
+  margin-right: 15px;
+  font-size: 1.1rem;      /* slightly bigger links */
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005f99;
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;      /* more vertical spacing and centered */
+  display: block;
+  border-radius: 8px;     /* subtle rounded corners */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+p {
+  font-size: 1.2rem;      /* bigger font */
+  line-height: 1.8;       /* more spacing between lines */
+  margin-top: 20px;
+  margin-bottom: 40px;
+  text-align: justify;    /* neat alignment */
+}
+
+nav {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
